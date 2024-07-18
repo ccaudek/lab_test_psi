@@ -1,0 +1,165 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+options: # The options key will be applied to all chapters, but not sub-sections
+  numbered: True
+parts:
+  - caption: Scaling psicometrico
+    numbered: True
+    chapters:
+      - file: _measurement/01_expval_var
+      - file: _measurement/02_joint_prob
+      - file: _measurement/03_measurement
+      - file: _measurement/04_norms
+      - file: _measurement/05_regression
+      - file: _measurement/E1_likert
+      - file: _measurement/E2_optimal_scoring
+      - file: _measurement/E3_thurstone
+
+  - caption: Teoria classica dei test
+    numbered: True
+    chapters:
+      - file: _ctt/01_ctt_1
+      - file: _ctt/02_ctt_2
+      - file: _ctt/03_ctt_3
+      - file: _ctt/04_err_std_mis
+      - file: _ctt/05_err_std_stima
+      - file: _ctt/06_applications_ctt
+      - file: _ctt/E1_ctt
+      - file: _ctt/E2_item_analyses
+
+  - caption: Affidabilità tra giudici
+    numbered: True
+    chapters:
+      - file: _raters/01_multilevel_1
+      - file: _raters/02_interrater_reliability
+      - file: _raters/E1_irr
+
+  - caption: Teoria della Generalizzabilità
+    numbered: True
+    chapters:
+      - file: _gtheory/01_gtheory
+
+  - caption: Validità
+    numbered: True
+    chapters:
+      - file: _validity/01_validity
+      - file: _validity/02_relations_to_other_vars
+
+  - caption: Sviluppo degli item
+    numbered: True
+    chapters:
+      - file: _items/01_item_development
+      - file: _items/02_item_analysis
+
+  - caption: Analisi dei percorsi
+    numbered: True
+    chapters:
+      - file: _path_analysis/01_path_analysis
+
+  - caption: Analisi fattoriale esplorativa
+    numbered: True
+    chapters:
+      - file: _fa/01_intro_fa
+      - file: _fa/02_analisi_fattoriale_1
+      - file: _fa/03_analisi_fattoriale_2
+      - file: _fa/04_analisi_fattoriale_3
+      - file: _fa/05_factor_scores
+      - file: _fa/06_constraints_on_parms
+      - file: _fa/07_total_score
+
+  - caption: Costruzione strumenti
+    numbered: True
+    chapters:
+      - file: _psychometric_methods/01_valutare_le_matrici
+      - file: _psychometric_methods/02_estrazione
+      - file: _psychometric_methods/03_numero_fattori
+      - file: _psychometric_methods/04_rotazione
+      - file: _psychometric_methods/05_valutare_sol_fattoriale
+
+  - caption: Analisi fattoriale confermativa
+    numbered: True
+    chapters:
+      - file: _cfa/01_cfa
+      - file: _cfa/E_01
+      - file: _cfa/02_meanstructure
+      - file: _cfa/03_cat_data
+      - file: _cfa/04_mmm
+      - file: _cfa/05_bifactor
+      - file: _cfa/06_efa_lavaan
+
+  - caption: Modelli di equazioni strutturali
+    numbered: True
+    chapters:
+      - file: _sem/01_sem_intro
+      - file: _sem/02_data_preparation
+      - file: _sem/E_01
+      - file: _sem/03_gof
+      - file: _sem/04_mod_comp
+      - file: _sem/05_cfa_mod_comp
+      - file: _sem/06_refine_solution
+      - file: _sem/07_group_invariance
+      - file: _sem/08_multilevel_sem
+      - file: _sem/09_structural_regr
+      - file: _sem/10_missing_data
+      - file: _sem/11_small_samples
+      - file: _sem/12_temp_reliability
+
+  - caption: Modelli IRT
+    numbered: True
+    chapters:
+      - file: _irt/01_logistic_regr
+      - file: _irt/E_01
+      - file: _irt/02_rasch_model
+      - file: _irt/03_assumptions
+      - file: _irt/04_estimation
+      - file: _irt/05_1pl_2pl_3pl
+      - file: _irt/06_implementation
+      - file: _irt/07_polytomous
+
+  - caption: Mokken Scales
+    numbered: True
+    chapters:
+      - file: _mokken/01_core_issues
+      - file: _mokken/02_applications
+
+  - caption: Tutorial
+    numbered: True
+    chapters:
+      - file: _development/01_development
+      - file: _development/02_tutorial
+
+  - caption: Curve di crescita latente
+    numbered: True
+    chapters:
+      - file: _lgm/01_lgm_intro
+      - file: _lgm/02_lgm_prelims
+      - file: _lgm/03_time_effects
+      - file: _lgm/04_invariance
+      - file: _lgm/05_intro_panel
+      - file: _lgm/06_lgm_mixed
+      - file: _lgm/07_growth_1
+      - file: _lgm/08_growth_cont
+      - file: _lgm/09_time_inv_cov
+      - file: _lgm/10_growth_groups
+      - file: _lgm/11_bivariate_tvc_models
+      - file: _lgm/12_inv_measurement
+      - file: _lgm/13_latent_change
+      - file: _lgm/750_latent_change
+      - file: _lgm/751_biv_change
+      - file: _lgm/755_lgm_meas_inv
+
+  - caption: Bibliografia
+    numbered: True
+    chapters:
+      - file: z_biblio
+
+  - caption: Appendici
+    numbered: True
+    chapters:
+      - file: _appendix/a1_intro_r
+      - file: _appendix/a2_sums
+      - file: _appendix/a3_calculus
+      - file: _appendix/a4_linear_alg
