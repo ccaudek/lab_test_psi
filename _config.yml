@@ -1,10 +1,10 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: psy_test
+title: lab_test_psi
 author: Corrado Caudek
 logo: logo.png
-copyright: "2024"
+copyright: "2025"
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -22,7 +22,7 @@ bibtex_bibfiles: "references.bib"
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/ccaudek/psy_test # Online location of your book
+  url: https://github.com/ccaudek/lab_test_psi # Online location of your book
   path_to_book: docs/ # Optional path to your book, relative to the repository root
   branch: main # Which branch of the repository should be used when creating links (optional)
 
@@ -33,11 +33,11 @@ footer_text: Created by <a href="https://ccaudek.github.io/caudeklab/">Corrado C
 html:
   favicon: "images/increasing.png"
   google_analytics_id: "G-VMXNE4BCDL"
-  baseurl: "https://github.com/ccaudek/psy_test"
+  baseurl: "https://github.com/ccaudek/lab_test_psi"
   use_repository_button     : false
   use_edit_page_button      : false
   use_issues_button         : false 
-  baseurl: https://ccaudek.github.io/psy_test  # The base URL where your book will be hosted. Used for creating image previews and social links. e.g.: https://mypage.com/mybook/
+  baseurl: https://ccaudek.github.io/lab_test_psi  # The base URL where your book will be hosted. Used for creating image previews and social links. e.g.: https://mypage.com/mybook/
   comments:
     hypothesis: false
 
@@ -50,5 +50,4 @@ exclude_patterns:
 
 sphinx:
   extra_extensions:
-    - sphinx_proof
     - sphinx_exercise
